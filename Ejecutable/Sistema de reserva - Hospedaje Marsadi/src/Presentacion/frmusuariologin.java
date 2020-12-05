@@ -16,7 +16,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author saman
+ * @author SAMANTHA
  */
 public class frmusuariologin extends javax.swing.JFrame {
 

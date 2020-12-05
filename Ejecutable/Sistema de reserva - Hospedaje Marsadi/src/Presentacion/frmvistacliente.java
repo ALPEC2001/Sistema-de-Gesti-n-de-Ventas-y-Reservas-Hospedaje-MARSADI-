@@ -12,7 +12,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author saman
+ * @author SAMANTHA
  */
 public class frmvistacliente extends javax.swing.JFrame {
 

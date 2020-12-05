@@ -3,12 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package Presentacion;
 
 /**
  *
- * @author saman
+ * @author SAMANTHA
  */
 public class frminicio extends javax.swing.JFrame {
 
@@ -18,7 +17,7 @@ public class frminicio extends javax.swing.JFrame {
     public frminicio() {
         initComponents();
         this.setExtendedState(frminicio.MAXIMIZED_BOTH);
-        this.setTitle("Sistema de Reserva de Habitaciones y Gestión de ventas - Hotespedaje MARSADI");
+        this.setTitle("Sistema de Reserva de Habitaciones y Gestión de ventas - Hospedaje MARSADI");
     }
 
     /**
@@ -148,6 +147,11 @@ public class frminicio extends javax.swing.JFrame {
         jMenuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_G, java.awt.event.InputEvent.CTRL_MASK));
         jMenuItem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/pagos.png"))); // NOI18N
         jMenuItem1.setText("Pagos");
+        jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem1ActionPerformed(evt);
+            }
+        });
         mnureservas.add(jMenuItem1);
 
         menuBar.add(mnureservas);
@@ -216,7 +220,7 @@ public class frminicio extends javax.swing.JFrame {
 
     private void cutMenuItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cutMenuItemActionPerformed
         // TODO add your handling code here:
-        frmhabitacion form =new frmhabitacion();
+        frmhabitacion form = new frmhabitacion();
         escritorio.add(form);
         form.toFront();
         form.setVisible(true);
@@ -224,16 +228,16 @@ public class frminicio extends javax.swing.JFrame {
 
     private void copyMenuItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_copyMenuItemActionPerformed
         // TODO add your handling code here:
-        frmproducto form =new frmproducto();
+        frmproducto form = new frmproducto();
         escritorio.add(form);
         form.toFront();
         form.setVisible(true);
-        
+
     }//GEN-LAST:event_copyMenuItemActionPerformed
 
     private void aboutMenuItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aboutMenuItemActionPerformed
         // TODO add your handling code here:
-        frmcliente form =new frmcliente();
+        frmcliente form = new frmcliente();
         escritorio.add(form);
         form.toFront();
         form.setVisible(true);
@@ -241,7 +245,7 @@ public class frminicio extends javax.swing.JFrame {
 
     private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
         // TODO add your handling code here:
-        frmtrabajador form =new frmtrabajador();
+        frmtrabajador form = new frmtrabajador();
         escritorio.add(form);
         form.toFront();
         form.setVisible(true);
@@ -260,8 +264,12 @@ public class frminicio extends javax.swing.JFrame {
         form.setVisible(true);
         frmreserva.txtidtrabajador.setText(lblidpersona.getText());
         frmreserva.txttrabajador.setText(lblnombre.getText() + " " + lblapaterno.getText());
-        frmreserva.idusuario=Integer.parseInt(lblidpersona.getText());
+        frmreserva.idusuario = Integer.parseInt(lblidpersona.getText());
     }//GEN-LAST:event_contentMenuItemActionPerformed
+
+    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     /**
      * @param args the command line arguments

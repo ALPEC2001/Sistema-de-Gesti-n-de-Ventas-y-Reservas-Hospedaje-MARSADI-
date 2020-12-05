@@ -12,7 +12,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author saman
+ * @author SAMANTHA
  */
 public class frmvistahabitacion extends javax.swing.JFrame {
 

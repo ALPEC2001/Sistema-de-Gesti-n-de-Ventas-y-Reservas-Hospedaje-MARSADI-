@@ -14,7 +14,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author saman
+ * @author SAMANTHA
  */
 public class frmproducto extends javax.swing.JInternalFrame {
 

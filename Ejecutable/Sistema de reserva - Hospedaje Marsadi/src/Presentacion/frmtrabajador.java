@@ -16,7 +16,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author saman
+ * @author SAMANTHA
  */
 public class frmtrabajador extends javax.swing.JInternalFrame {
 

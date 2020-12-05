@@ -15,7 +15,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author CARLOS
+ * @author SAMANTHA
  */
 public class conexion {
     public String db="basereserva";

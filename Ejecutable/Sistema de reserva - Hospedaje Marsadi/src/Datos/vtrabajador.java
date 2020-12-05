@@ -8,7 +8,7 @@ package Datos;
 
 /**
  *
- * @author CARLOS
+ * @author SAMANTHA
  */
 public class vtrabajador extends vpersona{
      Double sueldo;

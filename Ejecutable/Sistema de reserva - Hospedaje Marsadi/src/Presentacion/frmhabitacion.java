@@ -22,7 +22,7 @@ import net.sf.jasperreports.view.JasperViewer;
 
 /**
  *
- * @author saman
+ * @author SAMANTHA
  */
 public class frmhabitacion extends javax.swing.JInternalFrame {
 

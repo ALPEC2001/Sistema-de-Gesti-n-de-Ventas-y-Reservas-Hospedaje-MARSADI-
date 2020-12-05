@@ -17,7 +17,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author CARLOS
+ * @author SAMANTHA
  */
 public class fproducto {
     
